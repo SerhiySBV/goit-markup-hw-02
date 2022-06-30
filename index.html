@@ -5,34 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
-    <header>
-      <nav>
-        <a lang="en" href="">WebStudio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+
+    <header class="header">
+      <nav class="nav">
+        <a class="link nav-link nav-logo" lang="en" href="./index.html">WebStudio</a>
+        <ul class="list nav-list">
+          <li><a class="link nav-link" href="">Студия</a></li>
+          <li><a class="link nav-link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+      <ul class="list contact-list">
+        <li>
+          <a class="link header-link" lang="en" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a class="link header-link" href="tel:+380961111111">+38 099 111 11 11</a></li>
       </ul>
     </header>
-    <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+
+    <!-- Main -->
+
+    <main class="main">
+      <section class="main-section">
+        <h1 class="main-text">Эффективные решения для вашего бизнеса</h1>
+        <button class="btn" type="button" >Заказать услугу</button>
       </section>
       <!--About us-->
-      <section>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+      <section class="about-section">
+        <ul class="list about-list">
+          <li class="about-item">
+            <h3 classs="about-item-title">Внимание к деталям</h3>
+            <p classs="about-item-text">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
           <li>
             <h3>Пунктуальность</h3>
@@ -52,10 +63,12 @@
           </li>
         </ul>
       </section>
+
       <!--Specification-->
+
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li><img src="./images/pic1.jpg" alt="Фото1" width="370" height="294" /></li>
           <li><img src="./images/pic2.jpg" alt="Фото2" width="370" height="294" /></li>
           <li><img src="./images/pic3.jpg" alt="Фото3" width="370" height="294" /></li>
@@ -63,8 +76,9 @@
       </section>
       <section>
         <!--Teem-->
+
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/product_designer.jpg"
@@ -98,13 +112,15 @@
         </ul>
       </section>
     </main>
-    <!--Footter-->
+
+    <!-- Footter -->
+
     <footer>
-      <a lang="en" href="">WebStudio</a>
-      <address>
-        г. Киев, пр-т Леси Украинки, 26
-        <a lang="en" href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+380961111111">+38 099 111 11 11</a>
+      <a class="link footer-text" lang="en" href="">WebStudio</a>
+      <address class="footer-adress">
+        <p class="footer-text"> г. Киев, пр-т Леси Украинки, 26</p>
+        <a class="link footer-text" lang="en" href="mailto:info@example.com">info@example.com</a>
+        <a class="link footer-text" href="tel:+380961111111">+38 099 111 11 11</a>
       </address>
     </footer>
   </body>

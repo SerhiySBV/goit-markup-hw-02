@@ -1,0 +1,53 @@
+/* Comon styles */
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+
+.header-link {
+  color: #757575;
+}
+
+.btn {
+  color: #212121;
+  cursor: pointer;
+}
+.btn {
+  background-color: #f5f4fa;
+}
+
+.header-link {
+  color: #757575;
+}
+.btn:focus,
+.btn:hover {
+  background-color: #2196f3;
+}
+.link:focus,
+.link:hover {
+  color: #2196f3;
+}
+.nav-logo {
+  font: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Footer */
+
+.footer-text {
+  color: #ffffff;
+}
