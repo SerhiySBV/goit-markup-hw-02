@@ -74,14 +74,15 @@ body {
 .footer-link:focus {
   color: var(--accent-txt-cl);
 }
+.portfolio-btn-current {
+  background-color: #2196f3;
+}
 .nav-link-current,
 .header-logo,
 .footer-logo {
   color: var(--accent-txt-cl);
 }
-.portfolio-btn-current {
-  background-color: var(--accent-txt-cl);
-}
+
 /* Logo */
 
 .header-logo {
@@ -270,9 +271,9 @@ body {
   color: #212121;
 }
 .portfolio-text {
-font-weight: 400;
-font-size: 16px;
-line-height: calc(30/16);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
 
-color: #757575;
+  color: #757575;
 }
