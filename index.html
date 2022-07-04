@@ -5,16 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
+
+    <!-- Fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font end -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
 
     <header class="header">
+      <a class="link header-logo" lang="en" href="./index.html">Web<span class="header-logo-cl">Studio</span></a>
       <nav class="nav">
-        <a class="link nav-link nav-logo" lang="en" href="./index.html">WebStudio</a>
         <ul class="list nav-list">
-          <li><a class="link nav-link" href="">Студия</a></li>
+          <li><a class="link nav-link nav-link-current" href="./index.html">Студия</a></li>
           <li><a class="link nav-link" href="./portfolio.html">Портфолио</a></li>
           <li><a class="link nav-link" href="">Контакты</a></li>
         </ul>
@@ -34,32 +43,32 @@
     <main class="main">
       <section class="main-section">
         <h1 class="main-text">Эффективные решения для вашего бизнеса</h1>
-        <button class="btn" type="button" >Заказать услугу</button>
+        <button class="btn btn-mode-blue" type="button">Заказать услугу</button>
       </section>
       <!--About us-->
       <section class="about-section">
         <ul class="list about-list">
-          <li class="about-item">
-            <h3 classs="about-item-title">Внимание к деталям</h3>
-            <p classs="about-item-text">
+          <li>
+            <h3 class="about-item-title">Внимание к деталям</h3>
+            <p class="about-item-text">
               Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="about-item-title">Пунктуальность</h3>
+            <p class="about-item-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="about-item-title">Планирование</h3>
+            <p class="about-item-text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
+            </p class="about-item-text">
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <h3 class="about-item-title">Современные технологии</h3>
+            <p class="about-item-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
       </section>
@@ -67,17 +76,20 @@
       <!--Specification-->
 
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="Specification-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li><img src="./images/pic1.jpg" alt="Фото1" width="370" height="294" /></li>
           <li><img src="./images/pic2.jpg" alt="Фото2" width="370" height="294" /></li>
           <li><img src="./images/pic3.jpg" alt="Фото3" width="370" height="294" /></li>
         </ul>
       </section>
-      <section>
-        <!--Teem-->
 
-        <h2>Наша команда</h2>
+
+       <!--Teem-->
+
+
+      <section class="teem-section">       
+        <h2 class="Teem-title">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -86,8 +98,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="en">Product Designe</p>
+            <h3 class="Teem-name-title">Игорь Демьяненко</h3>
+            <p lang="en" class="teem-text">Product Designe</p>
           </li>
           <li>
             <img
@@ -96,18 +108,18 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p lang="en">Frontend Develope</p>
+            <h3 class="Teem-name-title">Ольга Репина</h3>
+            <p lang="en" class="teem-text">Frontend Develope</p>
           </li>
           <li>
             <img src="./images/marketing.jpg" alt="Маркетинг" width="270" height="260" />
-            <h3>Николай Тарасов</h3>
-            <p lang="en">Marketin</p>
+            <h3 class="Teem-name-title">Николай Тарасов</h3>
+            <p lang="en" class="teem-text">Marketing</p>
           </li>
           <li>
             <img src="./images/ui_designer.jpg" alt="ЮИ дизайнер" width="270" height="260" />
-            <h3>Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="Teem-name-title">Михаил Ермаков</h3>
+            <p lang="en" class="teem-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -115,12 +127,12 @@
 
     <!-- Footter -->
 
-    <footer>
-      <a class="link footer-text" lang="en" href="">WebStudio</a>
+    <footer class="footer">
+      <a class="link footer-logo" lang="en" href="./index.html">Web<span class="footer-logo-cl">Studio</span></a>
       <address class="footer-adress">
-        <p class="footer-text"> г. Киев, пр-т Леси Украинки, 26</p>
-        <a class="link footer-text" lang="en" href="mailto:info@example.com">info@example.com</a>
-        <a class="link footer-text" href="tel:+380961111111">+38 099 111 11 11</a>
+        <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
+        <a class="link footer-link" lang="en" href="mailto:info@example.com">info@example.com</a>
+        <a class="link footer-link" href="tel:+380961111111">+38 099 111 11 11</a>
       </address>
     </footer>
   </body>
