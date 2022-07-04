@@ -79,6 +79,9 @@ body {
 .footer-logo {
   color: var(--accent-txt-cl);
 }
+.portfolio-btn-current {
+  background-color: var(--accent-txt-cl);
+}
 /* Logo */
 
 .header-logo {
