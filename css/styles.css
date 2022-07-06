@@ -34,7 +34,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.88em;
   display: flex;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -54,13 +54,13 @@ body {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14em;
   letter-spacing: 0.02em;
 }
 .nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14em;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -91,18 +91,16 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19em;
   letter-spacing: 0.03em;
 
   color: #2196f3;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .header-logo-cl {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19em;
   letter-spacing: 0.03em;
 }
 .header-logo-cl {
@@ -116,7 +114,7 @@ body {
 .main-text {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);
+  line-height: 1.36em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -126,7 +124,7 @@ body {
 .btn-mode-blue {
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.88em;
   display: flex;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -144,7 +142,7 @@ body {
 .about-item-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -153,7 +151,7 @@ body {
 .about-item-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71em;
 
   letter-spacing: 0.03em;
 }
@@ -163,7 +161,7 @@ body {
 .Specification-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.17em;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -177,14 +175,14 @@ body {
 .Teem-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.17em;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .Teem-name-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.19em;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -192,10 +190,9 @@ body {
 .teem-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.19em;
   letter-spacing: 0.03em;
 }
-
 /* Footer */
 
 /*Footer logo */
@@ -207,19 +204,17 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(16 / 14);
+  line-height: 1.14em;
   letter-spacing: 0.03em;
 
   color: #2196f3;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footer-logo-cl {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19em;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -227,10 +222,9 @@ body {
 /* Adress */
 
 .footer-text {
-  
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71em;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -241,7 +235,7 @@ body {
 .footer-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71em;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -252,7 +246,7 @@ body {
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: calc(36 / 18);
+  line-height: 2em;
   letter-spacing: 0.06em;
 
   color: #212121;
@@ -260,7 +254,16 @@ body {
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.88em;
+  letter-spacing: 0.03em;
 
   color: #757575;
+}
+.nav-link-current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
 }
